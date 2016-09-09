@@ -1,10 +1,8 @@
-postgresql-exercise
-===
+# postgresql-exercise
 
 Exercises for PostgreSQL on PL/pgSQL
 
-Exercise 21
----
+## Exercise 21
 
 ### Source
 
@@ -27,8 +25,7 @@ created    | summ
 05.01.2016 | 50
 
 
-Exercise 22
----
+## Exercise 22
 
 ### Source
 
@@ -58,8 +55,7 @@ id  | name | hire_date  | division_id
 Most visited division per January: **second division**
 
 
-Exercise 23
----
+## Exercise 23
 
 ### Source
 
@@ -93,3 +89,38 @@ department | name
    devel   | Sarto
    analyze | Chris
    devel   | Snout
+
+## Exercise 24
+
+### Source
+
+- actor (id, name)
+- movie (id, name)
+- role (actor_id, movie_id)
+
+### Result
+
+Number of movies per each actor
+
+
+## Exercise 31
+
+### Source
+
+Task
+
+name   | bugs
+---    | ---
+first  | 12
+second | 40
+third  | 10
+forth  | 42
+
+### Result
+
+Delete first 2 records with maximum number of bugs
+
+name   | bugs
+---    | ---
+first  | 12
+third  | 10
