@@ -124,3 +124,28 @@ name   | bugs
 ---    | ---
 first  | 12
 third  | 10
+
+
+## Exercise 32
+
+### Source
+
+name  |
+----- |
+bar   |
+foo   |
+hello |
+hello |
+world |
+bar   |
+
+### Result
+
+Remove duplicate records
+
+name  |
+----  |
+foo   |
+hello |
+world |
+bar   |
