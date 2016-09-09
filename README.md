@@ -40,7 +40,7 @@ id  | name
 2   | second division
 3   | third division
 
-employee
+Employee
 
 id  | name | hire_date  | division_id
 --- | ---- | ---------  | -----------
@@ -56,3 +56,40 @@ id  | name | hire_date  | division_id
 ### Result
 
 Most visited division per January: **second division**
+
+
+Exercise 23
+---
+
+### Source
+
+x1
+
+department | name
+---------- | ----
+analyze    | Chris
+devel      | Snout
+devel      | Sarto
+
+
+x2
+
+department | name
+---------- | ----
+test       | Chris
+devel      | Snout
+test       | Harry
+devel      | Sarto
+
+
+### Result
+
+Union
+
+department | name
+---------  | -------
+   test    | Harry
+   test    | Chris
+   devel   | Sarto
+   analyze | Chris
+   devel   | Snout
