@@ -149,3 +149,12 @@ foo   |
 hello |
 world |
 bar   |
+
+
+## Exercise 41
+
+A trigger: update a relational table during insertion
+
+## Exercise 42
+
+A trigger: delete records from a relational table during deletion
